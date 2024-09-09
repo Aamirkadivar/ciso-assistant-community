@@ -6,6 +6,7 @@ import sys
 
 
 def main():
+    print('-'*10)
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ciso_assistant.settings")
     try:

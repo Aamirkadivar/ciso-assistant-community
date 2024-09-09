@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # wait for database to be ready
-
 if [ ! -n "$DJANGO_SECRET_KEY" ]; then
 	if [ ! -f db/django_secret_key ]; then
 		cat /proc/sys/kernel/random/uuid >db/django_secret_key
